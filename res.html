@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7GOKl5fjkphmpomysLahrUR4vM_xXSQSuGg&s");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+        }
+        
+        nav {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 25px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-left {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nav-right {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-right a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: grey;
+            border-radius: 5px;
+            color: black;
+            padding: 5px;
+        }
+
+        main {
+            padding: 120px 20px 40px;
+            text-align: center;
+        }
+
+        main p {
+            color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        button {
+            border-radius: 25px;
+            color: black;
+            background-color: gainsboro;
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: grey;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: white;
+            font-size: 14px;
+            margin-top: 20px;
+            bottom: 0px;
+        }
+
+        @media screen and (max-width: 800px) {
+            nav, main {
+                width: 100%;
+            }
+            main p {
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">ABHIRUCHI</div>
+        <div class="nav-right">
+            <a href="">HOME</a>
+            <a href="https://ik.imagekit.io/fu4uxhoyq/menu1.html?updatedAt=1730380597208">MENU</a>
+            <a href="https://ik.imagekit.io/fu4uxhoyq/spcl.html?updatedAt=1731690549954">SPECIALS</a>
+            <a href="https://ik.imagekit.io/fu4uxhoyq/contact1.html?updatedAt=1731684730791">CONTACT</a>
+        </div>
+    </nav>
+    
+    <main>
+        <h2><span style="color: orange;">ABHIRUCHI </span><span style="color: white;">RESTAURANT</span></h2>
+        <p>Welcome to Abhiruchi Restaurant, where great food meets a warm ambiance! Indulge in our carefully crafted menu featuring delicious dishes made from the freshest ingredients. Whether you're craving a hearty breakfast, a cozy dinner, or a delightful dessert, we have something for every taste. Explore our chef's specials, enjoy fine dining, or order your favorites for delivery. Experience exceptional service and unforgettable flavors – your table awaits!</p>
+        <button onclick="window.location.href='https://ik.imagekit.io/fu4uxhoyq/Tablebooking.html?updatedAt=1731689033126'">BOOK A TABLE</button>
+        <button onclick="window.location.href='https://ik.imagekit.io/fu4uxhoyq/contact1.html?updatedAt=1731684730791'">CONTACT</button>
+    </main>
+    
+    <footer>
+        &copy; 2024 Abhiruchi Restaurant. All Rights Reserved.
+    </footer>
+</body>
+</html>

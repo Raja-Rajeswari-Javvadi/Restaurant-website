@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0N3NCVg6uKdi8fINX4V0nS7xLI9GAmnPFSw&s");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 40px;
+        }
+
+        .left {
+            flex: 2;
+        }
+
+        .right {
+            flex: 1;
+            margin-left: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        h3 {
+            color: white;
+            margin: 0;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 35px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 40px;
+            margin: 0;
+            font-family: 'Brush Script MT', cursive;
+        }
+
+        h2 {
+            font-family: 'Brush Script MT', cursive;
+        }
+
+        label {
+            color: red;
+        }
+
+        input {
+            padding: 10px;
+            border-radius: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        button {
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+
+        table {
+            margin-top: 20px;
+            color: white;
+        }
+
+        span {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .button-container {
+            text-align: center; /* Center align the button */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Book a Table</h1>
+        </div>
+        <div class="right">
+            <h1>Contact</h1>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="left">
+            <table>
+                <tr>
+                    <td><label for="name">Your Name</label><br>
+                        <input type="text" id="name"></td>
+                    <td><label for="phone">Your Phone</label><br>
+                        <input type="number" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Booking Date</label><br>
+                        <input type="date" id="date"></td>
+                    <td><label for="persons">Number of Persons</label><br>
+                        <input type="number" id="persons"></td>
+                </tr>
+                <tr>
+                    <td><label for="time">Booking Time</label><br>
+                        <input type="time" id="time"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="comments">Your Comment</label><br>
+                        <input type="text" id="comments" style="padding: 25px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="button-container">
+                            <button>BOOK IT!</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="right">
+            <h3 style="font-family: 'Brush Script MT', cursive;">With Us</h3><br>
+            <span style="color: red;">Email us: </span><span style="color: white;">rajeswari.javvadi@sasi.ac.in</span> <br>
+            <span style="color: red;">Phone us: </span><span style="color: white;">9912577123</span> <br>
+            <span style="color: red;">Visit us: </span><span style="color: white;">Badeti complex opposite TTD Kalyana Mandapam, Attili, Andhra Pradesh 534134</span>
+            <br><br><br>
+            <h3 style="font-family: 'Brush Script MT', cursive;">Working hours</h3><br>
+            <span style="color: red;">Monday - Friday:</span><span style="color: white;">10:00 AM - 11:00 PM</span> <br>
+            <span style="color: red;">Sunday: </span><span style="color: white;">11:00 AM - 12:00 AM</span> <br>
+        </div>
+    </div>
+</body>
+</html>
